@@ -35,7 +35,7 @@ while (True):
         statusComment = row[13]
         orderId = row[14]
 
-        #########PUT
+        #########PATCH
         url = "url for put request with the orderid/%s" %(orderId)
 
         headers = CaseInsensitiveDict()
